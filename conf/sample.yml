@@ -5,12 +5,12 @@ sample_dynamodb_table:
   dynamo:
     arn: "arn:aws:dynamodb:ap-northeast-1:99999999999:table/xxxxxxxxxxxxxxxxxxxxxxxx"
   s3:
-    name: "sample-bucket"
+    name: "sample-export"
   kms:
     arn: "arn:aws:kms:ap-northeast-1:99999999999999:key/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
   athena:
     enabled: true
-    database_name: "sample-db"
+    database_name: "sample_db"
     query_result_output_bucket_name: "sample-result-bucket"
-    table_name: "sample-table"
-    table_schema: "struct<id:struct<n:string>,name:struct<n:string>>"
+    table_name: "sample_table"
+    table_schema: "struct<id:struct<s:string>,name:struct<s:string>>"
