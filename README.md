@@ -1,5 +1,5 @@
 # What is this
-- dynamodb export to s3 with athena 
+- Dynamodb export to s3 with Athena(Terraform ＋ Serverless Framework)
 
 ![dynamo-export](https://user-images.githubusercontent.com/43064247/103404661-cc05a900-4b97-11eb-8e27-bd6ba98bb040.png)
 
